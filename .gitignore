@@ -1,0 +1,24 @@
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Development Tools (VS Code) ---
+.vscode/
+
+# --- Python Environment & Build Artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# --- Environment Variables / Secrets (NEVER COMMIT THESE) ---
+.env
+.env.local
+
+# --- Large File -> Dataset ---
+*.csv
+train/
+test/
